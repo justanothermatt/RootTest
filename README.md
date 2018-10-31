@@ -1,6 +1,6 @@
 # Root Insurance Interview Code
 
-This project is a command line driven code written for the Root Insurance interview process. This program will input a text file with either commands "Driver" or "Trip". Driver will be followed by a name for the driver (Ex. Driver Dan). Trip will be followed by the name of the driver taking the trip, start time, end time, and total miles driven (Ex. Trip Dan 12:01 15:04 33.5) The program will take in all Drivers and Trips, and then output to a text file, the drivers speed and total miles driven. This output will be sorted by most miles driven to least.
+This project is a command line driven code written for the Root Insurance interview process. This program will input a text file with either commands "Driver" or "Trip". Driver will be followed by a name for the driver (Ex. Driver Dan). Trip will be followed by the name of the driver taking the trip, start time, end time, and total miles driven (Ex. Trip Dan 12:01 15:04 33.5) The program will take in all Drivers and Trips, and then output to a text file, the drivers speed and total miles driven. This output will be sorted by most miles driven to least. The code written by me were the following files: "main.cpp" "Driver.h" "Driver.cpp"
 
 ## Thought Process
 
