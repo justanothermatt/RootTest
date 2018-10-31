@@ -26,6 +26,18 @@ During the design, a major problem that arose was storage of objects. Since they
 
 As nice as vectors are, a  problem that came along was sorting. Objects stored in vectors seemed difficult to to sort until some research landed me on a page discussing operators. The operator struct early on in the program is one that was designed around milesDriven comparison within objects. It’s a boolean operator that acts as a greater than and less than for the Object.getMiles(). Using this operator as a third parameter for the std::sort() function I was able to sort the vector from largest to smallest by miles driven. The only thing left at that point was to output all the information to a text file.
 
+## Testing Process
+
+For testing on this program, the main example given by Root was the focus of testing. This prompt is shown below:
+````
+Driver Dan
+Driver Alex
+Driver Bob
+Trip Dan 07:15 07:45 17.3
+Trip Dan 06:12 06:32 21.8
+Trip Alex 12:01 13:16 42.0
+````
+The testing was centered around building the program based off of results of the test. This means that once I wrote something, I would test it's functionality using (most of the time) outputting to a text file. The first test was ensuring the overloaded constructor working correctly using the .getName() method. Outside of this, some other tests were: ensuring the colon was removed from the time, making sure the round() function from STL was actually rounding correctly, and ensuring the comparator worked correctly. Theses test all worked smoothly and the program runs well given any correctly formatted input.
 ### Author
 
 **Matt Walker** - Github: [Justanothermatt](https://github.com/justanothermatt)
